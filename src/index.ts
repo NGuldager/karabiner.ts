@@ -18,7 +18,7 @@ const codingApp = 'IntelliJ IDEA';
 
 const leaderKey = 'f19';
 
-const aiApplication = 'Supacode';
+const aiApplication = 'Claude';
 
 const shared = () => {
   return [
