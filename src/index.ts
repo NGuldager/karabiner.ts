@@ -12,6 +12,7 @@ import {
 
 const editor = 'Visual Studio Code';
 const codingApp = 'IntelliJ IDEA';
+const terminal = 'Rex Beta';
 
 // const homeRowForInternalKeyboard = getHomeRowMods();
 // const homeRowForMoonlander = getHomeRowMods(90);
@@ -52,7 +53,7 @@ const shared = () => {
         m: toApp('Spotify'),
         o: toApp('Microsoft Outlook'),
         l: toApp('Linear'),
-        t: toApp('Ghostty'),
+        t: toApp(terminal),
         f: toApp('Firefox'),
         p: toApp('Bruno'),
       }),
@@ -74,7 +75,7 @@ const shared = () => {
         map('b').toApp('Google Chrome'),
         map('z').toApp('Zen'),
         map('s').toApp('Slack'),
-        map('t').toApp('Ghostty'),
+        map('t').toApp(terminal),
         map('f').toApp('Firefox'),
       ]),
       withModifier('Hyper')([map('a').toApp(aiApplication)]),
