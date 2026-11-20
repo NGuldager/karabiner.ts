@@ -12,7 +12,7 @@ import {
 
 const editor = 'Visual Studio Code';
 const codingApp = 'IntelliJ IDEA';
-const terminal = 'Rex Beta';
+const terminal = 'Rex';
 
 // const homeRowForInternalKeyboard = getHomeRowMods();
 // const homeRowForMoonlander = getHomeRowMods(90);
